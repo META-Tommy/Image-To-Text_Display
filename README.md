@@ -1,7 +1,8 @@
 # Image-To-Text_Display
 Convert an image to a text_display entity in Minecraft: Java Edition!
 
-![Ethlyn](https://i.imgur.com/0c0Gr0S.png)![Ethlyn in Minecraft](https://i.imgur.com/Njws2hc.png)
+![Ethlyn](https://i.imgur.com/0c0Gr0S.png)
+![Ethlyn in Minecraft](https://i.imgur.com/Njws2hc.png)
 # What third party items do I need to use this?
 Java, Minecraft: Java Edition, [Fabric](https://fabricmc.net/), and [Carpet mod](https://www.curseforge.com/minecraft/mc-mods/carpet)
 
@@ -10,6 +11,7 @@ Would help to also have image editing software, such as [Paint.NET](https://www.
 **This step is critical to ensuring your game doesn't crash!**
 
 The main thing you want to do is **reduce how many colors are in your image**. I use a color effect that comes with [Paint.NET](https://www.getpaint.net/download.html) called [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can use any function that reduces how many colors are in your image. You'll probably want about 6 colors in an image, but you can go beyond that if you want. The program will stop you if you try to input an image with more than 20 colors, since it'll likely cause your game to be unplayable if you tried to load that. Below are the settings I use for [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can mess around with these. Most important is the colors are set to a very low number. Dithering can help make your image seem like it has more color than it does, experiment with it and see what works for your image!
+
 ![Quantize Settings](https://i.imgur.com/aJJUo29.png)
 
 Shrink your image down so that it doesn't lag as much. You can experiment with making the image bigger, but you should definitely try to load an image in small first since the program will take a long time with large images and Minecraft probably won't be playable with very large images. I suggest shrinking your image before you reduce how many colors are in the images as that'll lead to more details being maintained.
