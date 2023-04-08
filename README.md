@@ -52,11 +52,11 @@ Now you can run `/image_to_text_display create x y z scale`, where x, y, and z a
 
 If the `/script` command doesn't exist, you don't have [Carpet mod](https://www.curseforge.com/minecraft/mc-mods/carpet)
 
-If the `image_to_text_display` script doesn't exist, you didn't put `Chiseled_Bookshelf.sc`  in the right location
+If the `image_to_text_display` script doesn't exist, you didn't put `Image_To_Text_Display.sc`  in the right location
 
 This command will create text_display entities in your world which can only be removed with a command such as `/kill @e[type=minecraft:text_display]`, so keep that in mind.
 # Useful tips
-You can set the output of the .jar file to do be `.minecraft\saves\YOUR_WORLD\scripts\shared` and it'll automatically put `Chiseled_Bookshelf_Data.txt` in a place where scarpet can read it
+You can set the output of the .jar file to do be `.minecraft\saves\YOUR_WORLD\scripts\shared` and it'll automatically put `Text_Display_Data.txt` in a place where scarpet can read it
 
 Make sure you have the command `/kill @e[type=minecraft:text_display]` ready incase the game gets unplayably laggy and you have to remove text_displays.
 
