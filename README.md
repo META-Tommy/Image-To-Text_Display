@@ -30,9 +30,9 @@ Download the `.jar` file
 
 Open a command prompt where you downloaded the `.jar` file; you can do this in file explorer by typing `cmd` at the file location (the text box at the top of the file explorer where it says the folder address)
 
-Do the command `ImageToText_Display.jar "The location of the Image" "The location where you want the output Text_Display_Data.txt file"`
+Do the command `ImageToTextDisplay.jar "The location of the Image" "The location where you want the output Text_Display_Data.txt file"`
 
-For example `C:\Tommy\Downloads>ImageToText_Display.jar "C:\Tommy\Downloads\Ethlyn.png" "C:\Tommy\Downloads"` would take the image Ethlyn.png and output `Text_Display_Data.txt` inside the downloads folder
+For example `C:\Tommy\Downloads>ImageToTextDisplay.jar "C:\Tommy\Downloads\Ethlyn.png" "C:\Tommy\Downloads"` would take the image Ethlyn.png and output `Text_Display_Data.txt` inside the downloads folder
 
 Don't put a backslash at the end of the output location
 # What do I do with Text_Display_Data.txt
