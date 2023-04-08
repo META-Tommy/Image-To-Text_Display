@@ -8,11 +8,13 @@ Java, Minecraft: Java Edition, [Fabric](https://fabricmc.net/), and [Carpet mod]
 
 Would help to also have image editing software, such as [Paint.NET](https://www.getpaint.net/download.html)
 # Prepare an Image for Conversion
-The main thing you want to do is reduce how many colors are in your image. I use a color effect that comes with [Paint.NET](https://www.getpaint.net/download.html) called [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can use any function that reduces how many colors are in your image. You'll probably want about 6 colors in an image, but you can go beyond that if you want. The game will very likely lag if you add too many colors, please proceed with caution. Below are the settings I use for [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can mess around with these. Most important is the colors are set to a very low number. Dithering can help make your image seem like it has more color than it does, experiment with it and see what works for your image!
+You don't have to do this but it can reduce lag
+
+You can reduce how many colors are in your image to reduce lag. I use a color effect that comes with [Paint.NET](https://www.getpaint.net/download.html) called [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can use any function that reduces how many colors are in your image. You'll probably want about 6 colors in an image, but you can go beyond that if you want. The game will very likely lag if you add too many colors, please proceed with caution. Below are the settings I use for [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can mess around with these. Most important is the colors are set to a very low number. Dithering can help make your image seem like it has more color than it does, experiment with it and see what works for your image!
 
 ![Quantize Settings](https://i.imgur.com/aJJUo29.png)
 
-Shrink your image down so that it doesn't lag as much. You can experiment with making the image bigger, but you should definitely try to load an image in small first since the program will take a long time with large images and Minecraft probably won't be playable with very large images. I suggest shrinking your image before you reduce how many colors are in the images as that'll lead to more details being maintained.
+Shrinking your image down helps a lot with lag! You can experiment with making the image bigger, but you should definitely try to load an image in small first since the program will take a long time with large images and Minecraft probably won't like very large images. I suggest shrinking your image before you reduce how many colors are in the images as that'll lead to more details being maintained.
 
 Any pixels with transparency with not be displayed in the text_display, so use this for a nice transparent background around your image!
 
