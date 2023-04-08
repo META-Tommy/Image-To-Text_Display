@@ -8,9 +8,7 @@ Java, Minecraft: Java Edition, [Fabric](https://fabricmc.net/), and [Carpet mod]
 
 Would help to also have image editing software, such as [Paint.NET](https://www.getpaint.net/download.html)
 # Prepare an Image for Conversion
-**This step is critical to ensuring your game doesn't crash!**
-
-The main thing you want to do is **reduce how many colors are in your image**. I use a color effect that comes with [Paint.NET](https://www.getpaint.net/download.html) called [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can use any function that reduces how many colors are in your image. You'll probably want about 6 colors in an image, but you can go beyond that if you want. The game will very likely be unplayably laggy if you add too many colors, please proceed with caution. Below are the settings I use for [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can mess around with these. Most important is the colors are set to a very low number. Dithering can help make your image seem like it has more color than it does, experiment with it and see what works for your image!
+The main thing you want to do is reduce how many colors are in your image. I use a color effect that comes with [Paint.NET](https://www.getpaint.net/download.html) called [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can use any function that reduces how many colors are in your image. You'll probably want about 6 colors in an image, but you can go beyond that if you want. The game will very likely lag if you add too many colors, please proceed with caution. Below are the settings I use for [Quantize](https://www.getpaint.net/doc/latest/EffectsColorMenu.html), but you can mess around with these. Most important is the colors are set to a very low number. Dithering can help make your image seem like it has more color than it does, experiment with it and see what works for your image!
 
 ![Quantize Settings](https://i.imgur.com/aJJUo29.png)
 
