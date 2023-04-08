@@ -36,7 +36,7 @@ For example `C:\Tommy\Downloads>ImageToText_Display.jar "C:\Tommy\Downloads\Ethl
 
 Don't put a backslash at the end of the output location
 # What do I do with Text_Display_Data.txt
-Navigate to `.minecraft\saves` and find the world where you want to put the bookshelf in
+Navigate to `.minecraft\saves` and find the world where you want to put the text_displays in
 
 Make sure cheats are enabled! (we are cheating)
 
